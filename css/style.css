@@ -22,15 +22,13 @@ margin-top: 20px;
   border: 1px solid darkgray;
 }
 .navigation {
-  display: inline-block;
-  float: right;
-  margin-right: 1.1%;
-  margin-top: 20px;
+  text-align: center;
+  padding: right 50px;
 }
 
 .navigation > li {
   display: inline-block;
-  text-align:right;
+  text-align:center;
   padding: 0 10px;
   text-decoration: none;
   list-style-type: none;
@@ -143,7 +141,7 @@ button:focus {
   box-sizing: border-box;
 }
 .wrapper {
- max-width: 1000px;
+ max-width: 1200px;
  margin: 0 auto;
  overflow: hidden;
  min-height: 100vh;
@@ -168,7 +166,7 @@ button:focus {
 }
 
 .fade {
-  background-color: black;
+  background-color: none;
 }
 
 .project-title {
